@@ -17,10 +17,11 @@ Pod::Spec.new do |s|
 
   s.name         = "CapImagePickerViewController"
   s.version      = "0.0.1"
-  s.homepage     = "https://github.com/TinySungo/CapImagePickerViewController"
+  s.summary      = "An imagePicker like wechat"
+  s.homepage     = "https://github.com/TinySungo/CaptureImagePicker"
   s.license      = "MIT"
   s.author             = { "TinySungo" => "872732301@qq.com" }
-  s.source       = { :git => "https://github.com/TinySungo/CapImagePickerViewController.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/TinySungo/CaptureImagePicker.git", :tag => "#{s.version}" }
 
 
 
@@ -30,6 +31,7 @@ Pod::Spec.new do |s|
   s.frameworks = "AVFoundation"
 
   s.dependency "TOCropViewController", "~> 2.3.4"
+
   s.platform = :ios
 
   # s.public_header_files = "Classes/**/*.h"
