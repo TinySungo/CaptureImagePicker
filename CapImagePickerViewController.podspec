@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files  = "imagePickerController/*.{h,m}"
   s.resources = "imagePickerController/Resource/*.{png}"
   s.requires_arc = true
-  s.frameworks = "AVFoundation"
+  s.frameworks = "AVFoundation","UIKit"
 
   s.dependency "TOCropViewController", "~> 2.3.4"
 
